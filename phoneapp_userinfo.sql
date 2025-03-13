@@ -18,6 +18,9 @@
 --
 -- Table structure for table `userinfo`
 --
+DROP DATABASE IF EXISTS phoneapp;
+CREATE DATABASE phoneapp DEFAULT CHARACTER SET UTF8MB4;
+USE phoneapp;
 
 DROP TABLE IF EXISTS `userinfo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
