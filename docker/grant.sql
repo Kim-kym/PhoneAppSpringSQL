@@ -1,0 +1,3 @@
+CREATE USER IF NOT EXISTS 'phoneapp'@'%' IDENTIFIED BY 'phoneapp';
+GRANT ALL PRIVILEGES ON phoneapp.* TO 'phoneapp'@'%';
+FLUSH PRIVILEGES;
