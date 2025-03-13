@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS phoneapp;
+CREATE DATABASE IF NOT EXISTS phoneapp;
+USE phoneapp;
+
 -- MySQL dump 10.13  Distrib 8.0.40, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: phoneapp
@@ -18,9 +22,7 @@
 --
 -- Table structure for table `userinfo`
 --
-DROP DATABASE IF EXISTS phoneapp;
-CREATE DATABASE IF NOT EXISTS phoneapp;
-USE phoneapp;
+
 
 DROP TABLE IF EXISTS `userinfo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
