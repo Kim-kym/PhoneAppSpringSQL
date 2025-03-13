@@ -19,11 +19,13 @@
 -- Table structure for table `userinfo`
 --
 
+select User();
+
 -- 권한 생성
-drop user'phoneapp'@'localhost';
-CREATE USER 'phoneapp'@'localhost' IDENTIFIED BY 'phoneapp';
-GRANT ALL PRIVILEGES ON phoneapp.* TO 'phoneapp'@'localhost';
-SHOW GRANTS FOR 'phoneapp'@'localhost';
+-- drop user'phoneapp'@'localhost';
+-- CREATE USER 'phoneapp'@'localhost' IDENTIFIED BY 'phoneapp';
+-- GRANT ALL PRIVILEGES ON phoneapp.* TO 'phoneapp'@'localhost';
+-- SHOW GRANTS FOR 'phoneapp'@'localhost';
 
 -- 데이터베이스 사용 
 USE phoneapp;
