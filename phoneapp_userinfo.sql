@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.40, for Win64 (x86_64)
 --
--- Host: localhost    Database: phoneapp
+-- Host: 127.0.0.1    Database: phoneapp
 -- ------------------------------------------------------
 -- Server version	8.0.40
 
@@ -18,18 +18,6 @@
 --
 -- Table structure for table `userinfo`
 --
-
-select User();
-
--- 권한 생성
--- drop user'phoneapp'@'localhost';
--- CREATE USER 'phoneapp'@'localhost' IDENTIFIED BY 'phoneapp';
--- GRANT ALL PRIVILEGES ON phoneapp.* TO 'phoneapp'@'localhost';
--- SHOW GRANTS FOR 'phoneapp'@'localhost';
-
--- 데이터베이스 사용 
-USE phoneapp;
-
 
 DROP TABLE IF EXISTS `userinfo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -66,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-03-13 11:00:34
+-- Dump completed on 2025-03-13 14:39:41
